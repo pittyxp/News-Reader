@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">News 2.6.3beta</string>
+    <string name="update">Scaricamento in corso...</string>
+    <string name="msg_download_ok">Scaricamento Completato</string>
+    <string name="msg_download_ko">Errore Download</string>
+    <string name="remote_url">http://miosito_ricevo/dati.php</string>
+    <string name="filtro">FILTRO</string>
+    <string name="ultimi_articoli">Ultimi articoli</string>
+    <string name="tutti_gli_articoli">Tutti gli articoli</string>
+    <string name="accounts">ACCOUNTS</string>
+    <string name="scarica">SCARICA</string>
+    <string name="modifica">Modifica</string>
+    <string name="elimina">Elimina</string>
+    <string name="titolo">Titolo:</string>
+    <string name="url">Url:</string>
+    <string name="elimina_tutte_le_news">Elimina Tutte le News</string>
+    <string name="preferiti">Preferiti</string>
+</resources>

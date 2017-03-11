@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- qui possiamo definire gli stili della nostra applicazione android. iniziamo a definirne uno personalizzato e lo
+     lo chiamiamo parent_textstyle. Gli stili hanno una proprietà che è quella di poter essere ereditati e così definiamo
+     lo stile genitore/parent. Ogni stile ha necessità dei nodi. Ogni nodo sarà un attributo dello stile.
+     Il secondo stile eredita lo stile padre e viene a suo volta personalizzato maggiormente.
+     Creati i nostri stili non servirà più definirli all'interno della nostra textview dentro article_layout per esempio.
+    -->
+    <style name="parent_textstyle">
+        <item name="android:textColor">#040404</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="big_textstyle" parent="parent_textstyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="small_textstyle" parent="parent_textstyle">
+        <item name="android:textSize">15sp</item>
+    </style>
+</resources>

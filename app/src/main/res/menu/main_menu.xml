@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/articles_filter"
+        android:showAsAction="always"
+        android:title="@string/filtro"
+        tools:ignore="AppCompatResource">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/last_articles"
+                    android:title="@string/ultimi_articoli" />
+                <item
+                    android:id="@+id/all_articles"
+                    android:title="@string/tutti_gli_articoli"/>
+                <item
+                    android:id="@+id/bookmarks"
+                    android:title="@string/preferiti"/>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/second_actvity"
+        android:title="@string/accounts"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_preferences"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/cleardb"
+        android:title="@string/elimina_tutte_le_news"
+        android:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_delete"
+        tools:ignore="AppCompatResource" />
+</menu>
+
