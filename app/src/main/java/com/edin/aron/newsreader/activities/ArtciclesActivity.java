@@ -52,6 +52,7 @@ ciclo di vita dell'Activity. Questo lo facciamo perchè se dovessimo tornare ind
 se l'adapter era già stato inizializzato o meno. Se non lo è mai stato allora lo inizializziamo, altrimenti ad aggiornare
 il cursore delle notizie solamente tramite il metodo db.getArticles().
  */
+/*TEST COMMIT */
 public class ArtciclesActivity extends ListActivity {
 
     private CursorAdapter adapter=null;
